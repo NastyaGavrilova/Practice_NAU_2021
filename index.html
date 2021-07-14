@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, shrink-to-fit=no, user-scalable=no" />
+    <title>Music Player</title>
+    <link rel="icon" type="image/png" href="images/favicon.ico" />
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700&display=swap"
+          rel="stylesheet">
+</head>
+<body>
+<div class="main_container">
+    <div class= ></div>
+
+
+    <div class="text-center mg-y">
+        <a href="https://github.com/NastyaGavrilova"><img src="images/github.svg" width="9%" alt="github"></a>
+    </div>
+    <div class="card">
+        <div class="mg-b text-center">
+            <div>
+                <h3>MY PLAYLIST</h3>
+            </div>
+        </div>
+        <div class="mg-b">
+            <img class="album_img" id="image" src="images/img-1.jpg" alt="image1">
+        </div>
+        <audio src="music/music1.mp3"></audio>
+        <div class="mg-b text-center">
+            <div>
+                <h2 id="title">Daddy Issues</h2>
+            </div>
+            <div id="singer">The Neighbourhood</div>
+        </div>
+        <!-- progress bar section-->
+        <div class="progress_container mg-b">
+            <div class="progress_duration">
+                <div id="current_time">0:00</div>
+                <div id="total_time">4:20</div>
+            </div>
+            <div class="progress_bar" id="progress_bar">
+                <div class="bar" id="bar"></div>
+            </div>
+        </div>
+        <!-- play section -->
+        <div class="play_section mg-b">
+            <img class="replay" id="replay" src="images/replay-10.svg" alt="replay">
+            <img class="next_prev_btn" id="prev" src="images/previous.svg" alt="previous">
+            <img class="play_btn" id="play" src="images/play.svg" alt="play">
+            <img class="next_prev_btn" id="next" src="images/next.svg" alt="next">
+            <img class="forward" id="forward" src="images/forward-10.svg" alt="forward">
+        </div>
+        <!-- volume section -->
+        <div class="volume_section">
+            <button class="vol_btn"><img class="vol_down" id="vol_down" src="images/volume-down.svg"
+                                         alt="voldown"></button>
+            <button class="vol_btn"><img class="vol_mute" id="vol_mute" src="images/soundon.svg"
+                                         alt="volmute"></button>
+            <button class="vol_btn"><img class="vol_up" id="vol_up" src="images/volume-up.svg" alt="volup"></button>
+        </div>
+    </div>
+</div>
+
+</body>
+
+<script src="js/main.js"></script>
+</html>

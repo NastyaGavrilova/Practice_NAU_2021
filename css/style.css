@@ -1,0 +1,146 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-family: "Mulish", sans-serif;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mg-b {
+  margin-bottom: 20px;
+}
+
+section{
+  position: relative; top: 10px; left: 15mm;;
+}
+
+
+
+.mg-y{
+  margin: 40px 0 ;
+}
+
+.main_container {
+  background-color: #c8c7f1;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+}
+
+.card {
+  background-image: linear-gradient(315deg, #4889f9 0%, #d52bfb 74%);
+  box-shadow: 0 0.46875rem 2.1875rem #ff980038, 0 0.9375rem 1.40625rem #ff980021,
+    0 0.25rem 0.53125rem #ff980000, 0 0.125rem 0.1875rem rgb(255 152 0 / 14%);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 5px 20px;
+  min-width: 280px;
+  max-width: 280px;
+  min-height: 370px;
+}
+
+.album_img {
+  height: 170px;
+  width: 170px;
+  border-radius: 50%;
+}
+
+.play_section {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.next_prev_btn {
+  height: 35px;
+  width: 35px;
+}
+
+.play_btn {
+  height: 55px;
+  width: 55px;
+}
+
+.progress_container {
+  width: 100%;
+}
+
+.progress_duration {
+  display: flex;
+  justify-content: space-between;
+  font-size: smaller;
+  padding-bottom: 5px;
+}
+
+.progress_bar {
+  position: relative;
+  height: 4px;
+  width: 100%;
+  background: black;
+  appearance: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.bar {
+  position: absolute;
+  height: 4px;
+  width: 0%;
+  background-color: white;
+  top: 0;
+  left: 0;
+  appearance: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.volume_section {
+  display: flex;
+
+}
+
+.vol_btn {
+  display: flex;
+  align-items: center;
+  background-color: black;
+  border: none;
+  border-radius: 50%;
+  box-shadow: 1px 3px 4px #06060626;
+  margin: 0 10px;
+}
+
+.vol_btn:focus {
+  box-shadow: none;
+  box-shadow: none;
+  outline: none;
+}
+
+.vol_btn img {
+  padding: 10px;
+}
+
+.animateimage {
+  animation: rotateImage 3s linear infinite;
+}
+
+@keyframes rotateImage {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
